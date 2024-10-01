@@ -7,10 +7,13 @@ const MainPage = () => {
       <img 
       src="/images/landingPage.jpg" 
       alt="LandingPage"
-      className="w-1/2 h-auto mb-4" 
+      className="w-1/2 h-auto mb-4 rounded-lg" 
       />
-      <Link href="/todo" className="text-blue-500 hover:text-blue-700">
-      Go to Todo-list
+      <Link href="/todo">
+      
+      <button className="bg-blue-600 text-white rounded-md p-2 hover:bg-blue-700 transition duration-200">
+        Go to Todo-list
+      </button>
       </Link>
     </div>
   )
